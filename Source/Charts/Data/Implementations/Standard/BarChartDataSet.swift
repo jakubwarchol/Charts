@@ -143,6 +143,9 @@ open class BarChartDataSet: BarLineScatterCandleBubbleChartDataSet, IBarChartDat
     /// the width used for drawing borders around the bars. If borderWidth == 0, no border will be drawn.
     open var barBorderWidth : CGFloat = 0.0
 
+    /// corners to be rounded
+    open var roundedCorners: UIRectCorner = []
+
     /// the color drawing borders around the bars.
     open var barBorderColor = NSUIColor.black
 
